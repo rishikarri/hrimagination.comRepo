@@ -1,0 +1,25 @@
+{
+  "name": "hrimagination_life",
+  "homepage": "http://www.hrimagination.life",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.6.0",
+    "react-scripts": "1.0.11"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^2.2.7",
+    "styled-components": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
