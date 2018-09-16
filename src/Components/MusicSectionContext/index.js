@@ -12,7 +12,6 @@ const styles = {
     borderColor: "black",
     borderWidth: 2,
     borderStyle: "solid",
-    borderRadius: 20
   },
 
   songCardNoCameras: {
@@ -180,37 +179,38 @@ export const MusicContext = () => {
           </div>
         </div>
       </div>
+			<div className="row" style={Object.assign(styles.songCard, {borderTopWidth: 2, borderTopColor: 'black', borderTopStyle: 'solid'})}>
+				<div className="row" style={styles.songTitle}>
+					<div className="col-xs-12"> Switch </div>
+				</div>
 
-      <div className="row" style={styles.songTitle}>
-        <div className="col-xs-12"> Switch </div>
-      </div>
+				<div className="row">
+					<div style={styles.summary} className="col-xs-12 col-md-6">
+						<div style={styles.inspiration}>Inspiration</div>
+						<blockquote style={{ paddingRight: 60, paddingLeft: 60 }}>
+							{" "}
+							Switch is inspired by a parking ticket. There was a day when one of
+							the members of HR Imagination got off of work and found a parking
+							ticket on his car. This inconsequential incident ruined his
+							afternoon. He then went home and realized there was no beer left in
+							the fridge to soothe his nerves. It was just after this moment of
+							agitation that he he took a major step back and realized that he
+							shouldn't be stressing about such trivial things. There are millions
+							of people in the world who live on less than 3 dollars a day and
+							here he was brooding about a parking ticket and no beer. He decided
+							to "switch" up how he thinks and focus on living a more
+							compassionate life rather than spend time worrying about paltry
+							problems.
+						</blockquote>
+					</div>
 
-      <div className="row">
-        <div style={styles.summary} className="col-xs-12 col-md-6">
-          <div style={styles.inspiration}>Inspiration</div>
-          <blockquote style={{ paddingRight: 60, paddingLeft: 60 }}>
-            {" "}
-            Switch is inspired by a parking ticket. There was a day when one of
-            the members of HR Imagination got off of work and found a parking
-            ticket on his car. This inconsequential incident ruined his
-            afternoon. He then went home and realized there was no beer left in
-            the fridge to soothe his nerves. It was just after this moment of
-            agitation that he he took a major step back and realized that he
-            shouldn't be stressing about such trivial things. There are millions
-            of people in the world who live on less than 3 dollars a day and
-            here he was brooding about a parking ticket and no beer. He decided
-            to "switch" up how he thinks and focus on living a more
-            compassionate life rather than spend time worrying about paltry
-            problems.
-          </blockquote>
-        </div>
+					<div style={styles.sound} className="col-xs-12 col-md-6">
+						{createAudioFile("https://soundcloud.com/user-44658808/switch")}
+					</div>
+				</div>
+			</div>
 
-        <div style={styles.sound} className="col-xs-12 col-md-6">
-          {createAudioFile("https://soundcloud.com/user-44658808/switch")}
-        </div>
-      </div>
-
-      <div className="row" style={styles.songCard}>
+      <div className="row" style={Object.assign(styles.songCard, {borderTopWidth: 2, borderTopColor: 'black', borderTopStyle: 'solid'})}>
         <div className="row" style={styles.songTitle}>
           <div className="col-xs-12"> Confidence Vs. Doubt </div>
         </div>
@@ -259,12 +259,14 @@ export const MusicContext = () => {
               Winter 2016 
             </blockquote>
           </div>
-
-          <div style={styles.sound} className="col-xs-12 col-md-6">
-            {createAudioFile(
-              "https://soundcloud.com/user-44658808/winter"
-            )}
-          </div>
+					<div>
+						<div style={Object.assign(styles.sound, {marginTop: -30, marginBottom: 21})} className="col-xs-12 col-md-6">
+							{createAudioFile(
+								"https://soundcloud.com/user-44658808/winter"
+							)}
+						</div>
+					</div>
+          
         </div>
       </div>
 
