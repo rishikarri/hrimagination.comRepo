@@ -167,7 +167,7 @@ export const About = () => {
 								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Guitar</li>
 								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Ukulele</li> 
 								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Lyric Writer</li> 
-								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Vocals (R&B, Pop) </li>
+								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Vocals (R&B, Soul, Pop) </li>
 								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Manager </li>
 							</p>
 
