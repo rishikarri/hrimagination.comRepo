@@ -246,7 +246,7 @@ export const MusicContext = () => {
         </div>
       </div>
 
-			<div className="row" style={styles.songCard}>
+			<div className="row" style={Object.assign(styles.songCard, {borderTopWidth: 0})}>
         <div className="row" style={styles.songTitle}>
           <div className="col-xs-12"> Winter </div>
         </div>
