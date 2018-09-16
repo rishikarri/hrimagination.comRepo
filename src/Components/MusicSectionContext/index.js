@@ -355,7 +355,7 @@ export const MusicContext = () => {
                   <a
                     style={appleButtonStyle}
                     href={
-                      "https://itunes.apple.com/us/album/hr-1-ep/1307768330?app=music&ign-itsct=1307768330-1307768330&ign-itscg=0177&ign-mpt=uo%3D4"
+                      "https://itunes.apple.com/us/artist/hr-imagination/1307315333"
                     }
                     target="_blank"
                   >
