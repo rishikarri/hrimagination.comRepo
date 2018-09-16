@@ -112,6 +112,24 @@ const spotifyButtonStyle = {
 
 }
 
+const appleButtonStyle = {
+	color: 'black',
+  hoverColor: 'blue',
+  fontSize: 32, 
+  textAlign: 'center',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  height: 120,
+  width: 120,
+  marginTop: 40,
+  borderColor: 'black',
+  borderWidth: 2,
+  borderStyle: 'solid',
+  borderRadius: 4,
+  backgroundColor: 'white',
+}
+
 
 const createAudioFile = (hrefToUse) => {
 
@@ -233,9 +251,9 @@ export const MusicContext = () => {
 				  <a href={'https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz'} target="_blank">
 					<div style={listenButtonContainerStyle}>
 					  <div> 
-						<a style={spotifyButtonStyle} href={'https://itunes.apple.com/us/album/hr-1-ep/1307768330?app=music&ign-itsct=1307768330-1307768330&ign-itscg=0177&ign-mpt=uo%3D4'} target="_blank">
+						<a style={appleButtonStyle} href={'https://itunes.apple.com/us/album/hr-1-ep/1307768330?app=music&ign-itsct=1307768330-1307768330&ign-itscg=0177&ign-mpt=uo%3D4'} target="_blank">
 
-						  <img height={80} src="http://www.bluebeck.co.uk/img/apple.svg" alt="apple button" />
+						  <img height={80} src="https://mbtskoudsalg.com/images/apple-music-icon-png-6.png" alt="apple button" />
 						</a> 
 
 					  </div>
