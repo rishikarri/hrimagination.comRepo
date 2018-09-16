@@ -256,7 +256,7 @@ export const MusicContext = () => {
             <div style={styles.inspiration}>Inspiration</div>
             <blockquote style={{ paddingRight: 60, paddingLeft: 60 }}>
               {" "}
-              Winter is a 
+              Winter 2016 
             </blockquote>
           </div>
 
