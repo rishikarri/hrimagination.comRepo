@@ -161,16 +161,12 @@ export const MusicContext = () => {
             <blockquote style={{ paddingRight: 60, paddingLeft: 60 }}>
               {" "}
               No Cameras is inspired by “ride with me” / Nelly. We interpreted
-              “ride with me” as as follows: Nelly is explaining how his life
+              “ride with me” as follows: Nelly is explaining how his life
               changes after he becomes rich and famous - he loves certain perks,
               such as having a nice Mercedes, but overall doesn’t enjoy the fact
               that people are treating him differently because of his money. So
-              we took this concept and told the story about a random man who is
-              newly famous and is now getting treated differently (girls are
-              chasing him for his money, his friends are fake etc.). Our
-              character realizes that all he wants to do is flee away from the
-              cameras, hangout with a simple girl, and grind in the studio until
-              he can’t anymore.
+              we took this concept and told a story about a random man who is
+              newly famous and is now getting treated differently.
             </blockquote>
           </div>
 
@@ -198,8 +194,7 @@ export const MusicContext = () => {
 							shouldn't be stressing about such trivial things. There are millions
 							of people in the world who live on less than 3 dollars a day and
 							here he was brooding about a parking ticket and no beer. He decided
-							to "switch" up how he thinks and focus on living a more
-							compassionate life rather than spend time worrying about paltry
+							to "switch" up how he thinks and made a decision to stop worrying about paltry
 							problems.
 						</blockquote>
 					</div>
@@ -225,11 +220,7 @@ export const MusicContext = () => {
               emotions appear to alternate without one remaining prominent over
               the other. ("There ain't no sunny days without any stormy
               weather"). Confidence says things like "let's escape town" (leave
-              doubt behind) "on the first greyhound that you see". The person
-              listens and is trying to calm down and focus on achieving his /
-              her dreams - "just take your time now, let your emotions all fall
-              on down, as you take the crown" ... but then doubt hops into the
-              emotional backdrop: "i've been running, running so so long",
+              doubt behind) "on the first greyhound that you see". Doubt says things like: "i've been running, running so so long",
               "mother nature always holds you down". Doubt is telling the person
               that he / she has been running after his / her dreams for so long
               and will probably run out of energy or time before he / she gets
@@ -283,11 +274,7 @@ export const MusicContext = () => {
               Wonderful Conversation is inspired by the book, Wonder (R.J
               Palacio). Wonder is a book that tells a story about a kid who has
               a deformed face and is treated differently by the world because of
-              it. What we took from the book is that at the end of the day, as
-              cliche as it sounds, it's what is inside that matters. We, as
-              humans, should get to know people with an open mind rather than
-              myopically judge them based on how they look / dress. This song
-              tells a story of a person who encounters a man with a deformity in
+              it. This song tells a story of a person who encounters a man with a deformity in
               a city. This man pulls the narrator aside and the two have a
               wonderful conversation.
             </blockquote>
