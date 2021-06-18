@@ -147,6 +147,88 @@ export const MusicContext = () => {
         <div className="col-xs-12"> Music </div>
       </div>
 
+      <div className="row">
+        <div className="row">
+          <div
+            className="col-xs-5"
+            style={{ textAlign: "center", marginTop: 140 }}
+            href={"https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"}
+            target="_blank"
+          >
+            <a
+              href={"https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"}
+              target="_blank"
+            >
+              <div style={listenButtonContainerStyle}>
+                <div>
+                  <a
+                    style={spotifyButtonStyle}
+                    href={
+                      "https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"
+                    }
+                    target="_blank"
+                  >
+                    <img
+                      height={80}
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldcF6XgFCexE0vRF_z4Kmio9wKywb7qjq5fRSEy1ZbxqlTxNQ"
+                      alt="Spotify Button"
+                    />
+                  </a>
+                </div>
+              </div>
+            </a>
+            <a
+              href={"https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"}
+              style={{ color: "green" }}
+              target="_blank"
+            >
+              Spotify
+            </a>
+          </div>
+
+          <div
+            className="col-xs-5 col-xs-offset-1"
+            style={{ textAlign: "center", marginTop: 140 }}
+            href={"https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"}
+            target="_blank"
+          >
+            <a
+              href={"https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"}
+              target="_blank"
+            >
+              <div style={listenButtonContainerStyle}>
+                <div>
+                  <a
+                    style={appleButtonStyle}
+                    href={
+                      "https://itunes.apple.com/us/artist/hr-imagination/1307315333"
+                    }
+                    target="_blank"
+                  >
+                    <img
+                      height={80}
+                      src="https://tc-itservices.com/wp-content/uploads/2017/06/AppleMusic-1.jpg"
+                      alt="apple button"
+                    />
+                  </a>
+                </div>
+              </div>
+            </a>
+            <a
+              style={{ color: "green" }}
+              href={
+                "https://geo.itunes.apple.com/us/album/hr-1-ep/1307768330?mt=1&app=music"
+              }
+              target="_blank"
+            >
+              Apple Music
+            </a>
+          </div>
+        </div>
+
+        <div style={{ marginBottom: 30 }}> &nbsp; </div>
+      </div>
+
       <div className="row" style={styles.songCardNoCameras}>
         <div className="row">
           <div style={styles.songTitle} className="col-xs-12">
@@ -288,87 +370,7 @@ export const MusicContext = () => {
         </div>
       </div>
 
-      <div className="row">
-        <div className="row">
-          <div
-            className="col-xs-5"
-            style={{ textAlign: "center", marginTop: 140 }}
-            href={"https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"}
-            target="_blank"
-          >
-            <a
-              href={"https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"}
-              target="_blank"
-            >
-              <div style={listenButtonContainerStyle}>
-                <div>
-                  <a
-                    style={spotifyButtonStyle}
-                    href={
-                      "https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"
-                    }
-                    target="_blank"
-                  >
-                    <img
-                      height={80}
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldcF6XgFCexE0vRF_z4Kmio9wKywb7qjq5fRSEy1ZbxqlTxNQ"
-                      alt="Spotify Button"
-                    />
-                  </a>
-                </div>
-              </div>
-            </a>
-            <a
-              href={"https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"}
-              style={{ color: "green" }}
-              target="_blank"
-            >
-              Spotify
-            </a>
-          </div>
-
-          <div
-            className="col-xs-5 col-xs-offset-1"
-            style={{ textAlign: "center", marginTop: 140 }}
-            href={"https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"}
-            target="_blank"
-          >
-            <a
-              href={"https://open.spotify.com/artist/2O5OAXnx7ntM9e9qipzgbz"}
-              target="_blank"
-            >
-              <div style={listenButtonContainerStyle}>
-                <div>
-                  <a
-                    style={appleButtonStyle}
-                    href={
-                      "https://itunes.apple.com/us/artist/hr-imagination/1307315333"
-                    }
-                    target="_blank"
-                  >
-                    <img
-                      height={80}
-                      src="https://mbtskoudsalg.com/images/apple-music-icon-png-6.png"
-                      alt="apple button"
-                    />
-                  </a>
-                </div>
-              </div>
-            </a>
-            <a
-              style={{ color: "green" }}
-              href={
-                "https://geo.itunes.apple.com/us/album/hr-1-ep/1307768330?mt=1&app=music"
-              }
-              target="_blank"
-            >
-              Apple Music
-            </a>
-          </div>
-        </div>
-
-        <div style={{ marginBottom: 30 }}> &nbsp; </div>
-      </div>
+      
     </div>
   );
 };

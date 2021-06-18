@@ -129,9 +129,8 @@ export const About = () => {
 							<p><span style={{color: 'green', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Studio Sections:</span></p>
 							<p style={{marginLeft: 20, }}> 
 								<li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Piano</li>                
-								<li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Vocals (Hip-Hop, Rap) </li>
+								<li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Vocals</li>
 								<li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Lyric Writer</li> 
-								<li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Audio Engineer</li>
 								<li style={{fontWeight: 800, fontSize: 14, color: 'green'}}>Music Producer</li> 
 
 							</p>
@@ -167,8 +166,7 @@ export const About = () => {
 								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Guitar</li>
 								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Ukulele</li> 
 								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Lyric Writer</li> 
-								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Vocals (R&B, Soul, Pop) </li>
-								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Manager </li>
+								<li style={{fontWeight: 800, fontSize: 14, color: 'purple'}}>Vocals</li>
 							</p>
 
 							<p><span style={{color: 'green', 'fontWeight': '300', fontStyle: 'italic', fontSize: 20, }}>Book Recommendations:</span></p>
@@ -191,14 +189,7 @@ export const About = () => {
 				</div>
 
 				<div className='col-xs-12' style={{color: 'green', fontSize: 20, marginTop: 140, textAlign: 'center'}}> 
-					<div>We write under the stage-name HR Imagination for a few different reasons: </div>
-					<div>&nbsp;</div>
-						<ul>
-							<div>Most of our songs are written about fictional characters that <br></br>are merely figments of “HR Imagination”.<br></br> Characters that are relatable, good-intentioned, flawed, human. </div>
-							<div><div>&nbsp;</div>We started pursuing music as a group while rooming together at <br></br>college (University of Wisconsin - Madison). <br></br>School / work was prioritized over music. We threw<br></br> an hour here and an hour there into our makeshift studio. <br></br>These hours were treasured. These hours were viewed as time to break free from routine... <br></br>moments void of mundane decisions... a place where we could dream. <br />A place where we could imagine.</div>
-							<div>&nbsp;</div>
-							<div>"H" & "R" are the first initials of our names.</div>							
-						</ul>
+					
 					<div style={{marginTop: 100,}}>We enjoy music from several genres and are not currently affiliated with a record label at this time.</div> 
 				</div>
 
